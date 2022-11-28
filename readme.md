@@ -7,7 +7,7 @@ To deploy to dokku - add a git remote to `dokku@git.apps.projectcodex.net:expres
 Using this command:
 
 ```
-git add remote dokku dokku@git.apps.projectcodex.net:express-dokku
+git remote add dokku dokku@git.apps.projectcodex.net:express-dokku
 ```
 
 You can change the name after the colon to change your app name.
