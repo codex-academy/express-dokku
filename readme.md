@@ -12,6 +12,14 @@ git remote add dokku dokku@git.apps.projectcodex.net:express-dokku
 
 You can change the name after the colon to change your app name.
 
+Deploy the app using this command:
+
+```
+git push dokku master
+```
+
+> **Note:** you could use a `main` branch as well.
+
 ## Commands we tested on the server
 
 ```
