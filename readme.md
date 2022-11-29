@@ -12,6 +12,11 @@ git add remote dokku dokku@git.apps.projectcodex.net:express-dokku
 
 You can change the name after the colon to change your app name.
 
+
+Before you will be able to push to dokku we will need to add you are a dokku user on the `git.apps.projectcodex.net` server. For that we will need you public ssh key.
+
+Follow these [instructions from GitHub](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent) to create an ssh key. You can use the same ssh key for GitHub but that is a different concept all together, currently. And not needed to deploy to Dokku.
+
 ## Commands we tested on the server
 
 ```
